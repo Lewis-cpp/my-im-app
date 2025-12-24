@@ -1,0 +1,26 @@
+# === 全局通用 ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === C++ 编译产物 (Server & CLI) ===
+build/
+out/
+bin/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+.vs/
+.vscode/
+CMakeCache.txt
+CMakeFiles/
+
+# === Node.js / 前端依赖 ===
+node_modules/
+dist/
+release/
+npm-debug.log
+yarn-error.log
+.env
