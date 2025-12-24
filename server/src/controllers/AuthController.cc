@@ -1,7 +1,7 @@
 #include <drogon/HttpController.h>
 #include <drogon/HttpResponse.h>
 #include <json/json.h>
-#include "../services/UserService.cc"
+#include "../services/UserService.h"
 #include "../utils/JwtUtil.h"
 
 using namespace drogon;

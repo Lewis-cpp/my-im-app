@@ -1,6 +1,6 @@
 #include <drogon/WebSocketController.h>
 #include <json/json.h>
-#include "../services/MessageService.cc"
+#include "../services/MessageService.h"
 #include "../utils/JwtUtil.h"
 #include <unordered_map>
 #include <mutex>
