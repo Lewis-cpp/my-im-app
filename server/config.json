@@ -10,15 +10,12 @@
     "db_clients": [
         {
             "name": "default",
+            "rdbms": "mysql",
             "host": "127.0.0.1",
-            "port": 3306,
-            "username": "root",
-            "password": "password",
-            "dbname": "im_db",
-            "timeout": 5,
-            "is_fast": true,
-            "connection_number": 4,
-            "auto_multi_thread_mode": true
+            "port": 3307,
+            "user": "root",
+            "passwd": "123456",
+            "dbname": "im_db"
         }
     ],
     "redis_clients": [
